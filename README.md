@@ -1,4 +1,4 @@
-Django application for HR system that returns JSON data. Data used is from the MOCK_DATA.json file provided with the test. 
+Django application for HR system that returns JSON data. Data used is from the MOCK_DATA.json file provided with the test. Used SQLite database for holding the data. 
 * Operations on employees APIs:
     - read all (with ordering, filters & pagination as parameters): employee_all function view, http://127.0.0.1:8000/employee/all: 
         - django-filters for filtering the dataset results, usage examples: 
