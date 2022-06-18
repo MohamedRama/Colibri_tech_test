@@ -8,8 +8,8 @@ Django application for HR system that returns JSON data. Data used is from the M
         - pagination:
             - http://127.0.0.1:8000/employee/all?paginate_by=5
         http://127.0.0.1:8000/employee/all?years_of_experience=4&order_by=salary&paginate_by=5
-    
-    - read one: employee_one function view, http://127.0.0.1:8000/employee/id/<int:pk>:
+        
+    - read one: employee_one function view, http://127.0.0.1:8000/employee/id/<int:pk>/:
         - http://127.0.0.1:8000/employee/id/3/, will get one employee that has the id=3
     
     - update one: employee_update function view, update_emp.html template and EmployeeForm in froms.py, http://127.0.0.1:8000/employee/id/<int:pk>/update/:
